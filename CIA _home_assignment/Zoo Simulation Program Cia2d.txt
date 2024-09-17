@@ -1,0 +1,29 @@
+# Zoo Simulation Program
+
+## Overview
+
+This program demonstrates a basic zoo simulation using C++ classes and polymorphism. It includes a hierarchy of animal classes, each with unique behaviors, and demonstrates how a `ZooKeeper` and a `Visitor` interact with these animals using polymorphism.
+
+## Features
+
+- **Animal Hierarchy**: Abstract base class `Animal` with derived classes `Lion`, `Elephant`, and `Monkey`, plus additional classes `Parrot` and `Eagle` extending from `Bird`.
+- **Polymorphism**: Demonstrated in `ZooKeeper` and `Visitor` classes, showing how they interact with various animal types.
+- **Unique Methods**: Specific methods for each animal type, including `hunt()`, `swingTrunk()`, `climb()`, and `fly()`.
+
+## Classes
+
+- **Animal**: Abstract base class with pure virtual functions `makeSound()`, `move()`, and `interact()`.
+- **Lion**: Inherits from `Animal`, implements unique method `hunt()`.
+- **Elephant**: Inherits from `Animal`, implements unique method `swingTrunk()`.
+- **Monkey**: Inherits from `Animal`, implements unique method `climb()`.
+- **Bird**: Inherits from `Animal`, adds pure virtual method `fly()`.
+- **Parrot**: Inherits from `Bird`, implements `fly()`.
+- **Eagle**: Inherits from `Bird`, implements `fly()`.
+- **ZooKeeper**: Interacts with a list of animals and demonstrates polymorphism.
+- **Visitor**: Visits the zoo and interacts with animals using the `interact()` method.
+
+## How to Run
+
+1. **Compile**: Use a C++ compiler to compile the program. For example:
+   ```sh
+   g++ -o zoo_simulation zoo_simulation.cpp
