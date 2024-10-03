@@ -60,7 +60,7 @@ void deleteRecord()
     }
     if (!found)
     {
-        cout << "Record with ID " << id << " not found." << endl;
+        cout << "Record with ID's " << id << " not found." << endl;
     }
 }
 
