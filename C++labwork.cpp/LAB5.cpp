@@ -32,8 +32,9 @@ Line ::~Line()
 int main()
 {
     cout << "Name:Yashovardhan Tripathi" << endl;
-    cout << "PRN NO:230105231360" << endl;
-    cout << "Roll NO:84" << endl;
+    cout << "PRN No.:230105231360" << endl;
+    cout << "Division: D" << endl;
+    cout << "Roll No.:14" << endl;
     cout << "Experiment No:05" << endl;
     Line line1;
     Line line = Line(3.54);

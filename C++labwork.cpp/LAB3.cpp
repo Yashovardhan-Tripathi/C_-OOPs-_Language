@@ -15,9 +15,10 @@ public:
 int main()
 {
     cout << "Name:Yashovardhan Tripathi" << endl;
-    cout << "PRN NO:230105231360" << endl;
-    cout << "Roll NO:84" << endl;
-    cout << "Experiment No:03" << endl;
+    cout << "PRN No.:230105231360" << endl;
+    cout << "Division: D" << endl;
+    cout << "Roll No.:14" << endl;
+    cout << "Experiment No:03" << endl;;
     employees emp[5];
     cout << "Enter details of 5 employees:" << endl;
     employees t;
@@ -31,7 +32,7 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        cout << "The Name and Age of Employee No. " << i + 1 << " is: " << emp[i].name << " " << emp[i].age << endl;
+        cout << "The Name and Age of Employee No. " << i + 1 << " is: " << emp[i].name << ", " << emp[i].age << endl;
     }
 
     return 0;

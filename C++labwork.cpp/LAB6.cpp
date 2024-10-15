@@ -40,8 +40,9 @@ void disp(int a[], int n)
 int main()
 {
     cout << "Name:Yashovardhan Tripathi" << endl;
-    cout << "PRN NO:230105231360" << endl;
-    cout << "Roll NO:84" << endl;
+    cout << "PRN No.:230105231360" << endl;
+    cout << "Division: D" << endl;
+    cout << "Roll No.:14" << endl;
     cout << "Experiment No:06" << endl;
     int a[10], n;
     read(a, n);
